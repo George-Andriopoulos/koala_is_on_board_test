@@ -66,7 +66,6 @@ const PageSelector = ({ onDone }: { onDone: (selected: string[]) => void }) => {
 
 		if (onDone) onDone(selected);
 
-		// Reset all checkboxes after done
 		resetCheckboxes();
 	};
 

@@ -30,7 +30,6 @@ export default function CustomCheckbox({
           peer-focus:ring-2 peer-focus:ring-offset-1 peer-focus:ring-blue-100
         `}
 				onClick={() => {
-					// Create a synthetic event to pass to the onChange handler
 					const syntheticEvent = {
 						target: { checked: !checked },
 					} as ChangeEvent<HTMLInputElement>;
